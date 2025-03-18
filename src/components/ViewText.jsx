@@ -18,4 +18,4 @@ function ViewText({ text }) {
   );
 }
 
-export default ViewText;
+export default React.memo(ViewText);
